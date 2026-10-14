@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body{
+    height: 100%;
+    width:100%;
+    background-image:linear-gradient(to bottom,#ed8c42,#c36221,#ba510c);
+    padding:0px 10px 10px 0px ;
+}
+main{
+    background-color:#f0ece4;
+    border-radius:15px;
+    background-size: cover;
+    margin: 10px;
+    height:100%;
+    width:100%;
+    
+}
+nav{
+    display: flex;
+    padding:15px 30px;
+    justify-content:space-between;
+    border-bottom:1px solid #ddd9d9;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+nav .left{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    
+}
+nav .left h1{
+    font-size:24px;
+    font-family:"Segoe UI";
+    padding-right:20px;
+     
+}
+nav .left h1 span{
+    color:orangered;
+}
+nav .left p {
+    font-size:10px;
+    font-family:"Segoe UI";
+    font-weight:600;
+    margin:0px 10px;
+}
+nav .right{
+     display:flex;
+    align-items:center;
+    gap:30px;
+}
+nav .right i{
+ font-size:18px;
+}
+
+
+/* section */
+.section1{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+    gap: 15px;
+    margin:0px 30px 0px 30px ;
+}
+.new{
+    color: #f17623;
+    font-weight:700;
+    font-size:12px;
+    font-family:"Segoe UI";
+}
+.container1-head{
+    font-size:50px;
+     font-family:"Segoe UI";
+     line-height:43px;
+     font-weight:500;
+}
+.container1-head span{
+    color: #f07829;
+
+}
+.price{
+    padding:20px 0px 15px 0px ;
+    font-size:20px;
+     font-family:"Segoe UI";
+    
+}
+hr {
+    width:200px;
+    color: #ddd9d9;;
+}
+.discription{
+    padding-top:20px;
+    padding-bottom:10px;
+    font-size:15px;
+     font-family:"Segoe UI";
+     font-weight:600;
+}
+.discription-text{
+    font-size:13px;
+     font-family:"Segoe UI";
+     font-weight:400;
+     padding-bottom:10px;
+}
+.read-more{
+    font-size:11px;
+     font-family:"Segoe UI";
+     font-weight:700;
+     padding-bottom:15px;    
+}
+.read-more span{
+    color: #e96107;
+    padding-left:10px;
+}
+.care{
+    font-size:11px;
+     font-family:"Segoe UI";
+     font-weight:700;
+     padding-bottom:20px;
+     padding-top:20px;
+}
+.care span i {
+   padding-left: 50px;
+}
+.returns{
+    font-size:11px;
+    font-family:"Segoe UI";
+    font-weight:700;
+    padding-bottom:15px;
+    padding-top:20px;
+}
+.returns span i{
+padding-left: 30px;
+}
+ 
+ /* container2 */
+ .container2 img{
+    height:100%;
+}
+ .container2-bottom{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+   
+ }
+ .container2-bottom i{
+    font-size:24px;
+    color: #8a8884;
+    font-weight:400;
+ }
+ .container2-bottom h1{
+    font-size:10px;
+    font-weight:500;
+    padding-right:20px;
+ }
+ 
+
+ /* container3 */
+ 
+.container3{
+    text-align:center;
+}
+.size{
+    font-size:15px;
+}
+.sizes{
+  display:flex;
+  gap: 20px;
+  padding-top:20px;
+  
+}
+.sizes p{
+    background-color: #ddd9d9;
+    width:35px;
+    height:34px;
+    border-radius:8px;
+    font-size:13px;
+    font-width:700;
+    padding-top:7px;
+}
+.sizes p:nth-child(2){
+    background-color: #e26b34;
+    color:#fff;
+}
+.size-guide{
+    font-size:11px;
+    padding-top:20px;
+    font-weight:700;
+    padding-bottom:10px;
+}
+.size-guide span{
+    color: #e96107;
+    padding-left:10px;
+}
+
+.color{
+    font-size: 15px;
+    padding-top:20px;
+}
+
+.imgs-card{
+    display:flex;
+    padding-top:20px; 
+    justify-content:space-around;
+    gap:15px;
+}
+.imgs-card2{
+    display:flex;
+    padding-top:20px; 
+    justify-content:center;
+    gap:15px;
+    justify-content:space-around;
+    padding-bottom:20px;
+}
+.imgs-card2 h1{
+    font-size:9px;
+    font-weight:700;
+}
+.imgs-card h1{
+    font-size:9px;
+    font-weight:700;
+
+}
+ 
+.small-imags1{
+ width:70px;
+   height:80px;
+   background-color:#f0ece4;
+   border:1px solid #f57f31;
+   border-radius:10px;
+}
+.small-imags2{
+    width:70px;
+    height:80px;
+    background-color:#fffffe;
+    border-radius:15px;
+}
+.small-imags{
+   width:70px;
+   height:80px;
+   border-radius:15px;
+    
+}
+.both-wil-bag{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+.add-to-wi{
+    font-size:15px;
+    font-weight:500;
+    background-color:#f0ece4;
+    border-radius:20px;
+    border: 1px solid #b9b8b5;
+    height:40px;
+    width: 150px;
+    gap:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.add-to-wi i{
+font-size:16px;
+padding-top:3px;
+font-weight:500;
+}
+.add-to-wi p{
+    font-size:10px;
+    font-weight:700;
+}
+.add-to-bag{
+    font-size:15px;
+    font-weight:500;
+    background-color:#e06822;
+    border-radius:20px;
+    border: 1px solid #b9b8b5;
+    height:40px;
+    width: 150px;
+    gap:14px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    margin-top:20px;
+}
+.add-to-bag i{
+font-size:18px;
+}
+.add-to-bag p {
+    font-size:12px;
+    font-weight:600;
+}
+ 
+/* section2 */
+
+.section2 {
+     padding-top: 20px;
+}
+.section2-bottam{
+    display: flex; 
+     justify-content:space-around;
+     border:1px solid #ddd9d9;
+    border-radius:20px;
+     height:150px;
+     
+     justify-content: center;
+     align-items: center;
+     margin:0px 100px 0px 100px;
+     gap:20px;
+}
+.section2-card{
+    display: flex;    
+    gap: 10px;
+}
+.section2-card img{
+    height:90px;
+    width:100px;
+    border-radius:15px;
+
+}
+.section2-card  h1{
+    font-size:12px;
+    font-weight:600;
+}
+.section2-card p{
+    padding-top:10px;
+     font-size:10px;
+     color: #7a7a77;
+
+}
+footer{
+    padding-top:20px;
+}
+
+.footer-card{
+     border:1px solid #ddd9d9;
+    border-radius:20px;
+     height:70px;
+    align-items: center;
+    margin:0px 100px 0px 100px;
+    display:flex;
+    justify-content:space-around;
+}
+.footer-container{
+    display: flex;
+    gap:10px;
+    
+}
+.footer-container h1{
+    font-size:10px;
+   font-weight:600;
+}
+.footer-container p{
+     font-size:10px;
+     color: #7a7a77;
+}
+.footer-container i{
+    font-size:30px;
+   
+}
+.footer-container .a,.b{
+color: #df752e;
+}
